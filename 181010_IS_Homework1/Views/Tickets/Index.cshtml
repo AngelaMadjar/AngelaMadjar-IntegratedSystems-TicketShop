@@ -1,0 +1,93 @@
+﻿@model IEnumerable<_181010_IS_Homework1.Domain.DomainModels.Ticket>
+
+@{
+    ViewData["Title"] = "Tickets";
+}
+
+<h1>Tickets</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-3" style="margin:30px">
+            <div class="card align-items-center" style="width: 19rem; height: 35rem;">
+                <img class="card-img-top" src="@item.Image" style="height:60%;width:80%;" />
+                <div class="card-body">
+                    <h3>@item.Title</h3>
+                    <p>
+                        Rating: @item.Rating <br>
+                        Date: @item.DateAndTime <br />
+                        Price: @item.Price <br />
+                    </p>
+                    <a class="btn btn-secondary" asp-action="Edit" asp-route-id="@item.Id">
+                        Edit
+                    </a>
+                    <a asp-controller="Tickets" asp-action="AddToShoppingCart" asp-route-id="@item.Id" class="btn btn-default">Add to Card</a>
+                    @*<a class="btn btn-default" href="Tickets/AddToShoppingCart?Id=@item.Id">
+            Add to Cart
+        </a>*@
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@*<table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Title)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Image)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Rating)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Price)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Seat)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DateAndTime)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+    @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                   <img src="@item.Image" style="max-width:160px; max-height:100px"/>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Rating)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Seat)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DateAndTime)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+    }
+        </tbody>
+    </table>
+*@

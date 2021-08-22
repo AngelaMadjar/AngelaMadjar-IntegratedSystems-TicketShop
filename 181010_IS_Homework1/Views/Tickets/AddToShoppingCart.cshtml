@@ -1,0 +1,23 @@
+﻿@model _181010_IS_Homework1.Domain.DTO.AddToShoppingCartDTO
+@{
+    ViewData["Title"] = "Add To Shopping Cart";
+}
+
+<h1>Add Selected Ticket to Shopping Cart</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AddToShoppingCart"> @*Sending the inputs to the backend*@
+            <input type="hidden" asp-for="TicketId" />
+            <div class="form-group">
+                <input disabled class="form-control" asp-for="SelectedTicket.Title" />
+            </div>
+            <div class="form-group">
+                <input class="form-control" asp-for="Quantity" type="number" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary"/>
+            </div>
+        </form>
+    </div>
+</div>

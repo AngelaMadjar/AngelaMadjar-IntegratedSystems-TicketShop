@@ -1,0 +1,24 @@
+C:\Users\Angela Madjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Repository\bin\Debug\netcoreapp3.1\181010_IS_Homework1.Repository.deps.json
+C:\Users\Angela Madjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Repository\bin\Debug\netcoreapp3.1\181010_IS_Homework1.Repository.dll
+C:\Users\Angela Madjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Repository\bin\Debug\netcoreapp3.1\181010_IS_Homework1.Repository.pdb
+C:\Users\Angela Madjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Repository\bin\Debug\netcoreapp3.1\181010_IS_Homework1.Domain.dll
+C:\Users\Angela Madjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Repository\bin\Debug\netcoreapp3.1\181010_IS_Homework1.Domain.pdb
+C:\Users\Angela Madjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Repository\obj\Debug\netcoreapp3.1\181010_IS_Homework1.Repository.csproj.AssemblyReference.cache
+C:\Users\Angela Madjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Repository\obj\Debug\netcoreapp3.1\181010_IS_Homework1.Repository.AssemblyInfoInputs.cache
+C:\Users\Angela Madjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Repository\obj\Debug\netcoreapp3.1\181010_IS_Homework1.Repository.AssemblyInfo.cs
+C:\Users\Angela Madjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Repository\obj\Debug\netcoreapp3.1\181010_IS_Homework1.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Angela Madjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Repository\obj\Debug\netcoreapp3.1\181010_IS_Homework1.Repository.csproj.CopyComplete
+C:\Users\Angela Madjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Repository\obj\Debug\netcoreapp3.1\181010_IS_Homework1.Repository.dll
+C:\Users\Angela Madjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Repository\obj\Debug\netcoreapp3.1\181010_IS_Homework1.Repository.pdb
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Repository\bin\Debug\netcoreapp3.1\181010_IS_Homework1.Repository.deps.json
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Repository\bin\Debug\netcoreapp3.1\181010_IS_Homework1.Repository.dll
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Repository\bin\Debug\netcoreapp3.1\181010_IS_Homework1.Repository.pdb
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Repository\bin\Debug\netcoreapp3.1\181010_IS_Homework1.Domain.dll
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Repository\bin\Debug\netcoreapp3.1\181010_IS_Homework1.Domain.pdb
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Repository\obj\Debug\netcoreapp3.1\181010_IS_Homework1.Repository.csproj.AssemblyReference.cache
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Repository\obj\Debug\netcoreapp3.1\181010_IS_Homework1.Repository.AssemblyInfoInputs.cache
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Repository\obj\Debug\netcoreapp3.1\181010_IS_Homework1.Repository.AssemblyInfo.cs
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Repository\obj\Debug\netcoreapp3.1\181010_IS_Homework1.Repository.csproj.CoreCompileInputs.cache
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Repository\obj\Debug\netcoreapp3.1\181010_IS_Homework1.Repository.csproj.CopyComplete
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Repository\obj\Debug\netcoreapp3.1\181010_IS_Homework1.Repository.dll
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Repository\obj\Debug\netcoreapp3.1\181010_IS_Homework1.Repository.pdb

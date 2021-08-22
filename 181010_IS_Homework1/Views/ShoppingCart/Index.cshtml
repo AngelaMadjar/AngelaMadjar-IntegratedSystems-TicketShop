@@ -1,0 +1,65 @@
+﻿@model _181010_IS_Homework1.Domain.DTO.ShoppingCartDTO
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Items in Shopping Cart</h1>
+
+<div class="container">
+    @if (Model.TicketsInShoppingCart.Count == 0)
+    {
+        <br />
+        <h5>No produts in the Shopping Cart</h5>
+    }
+    else
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th class="col">
+                        #
+                    </th>
+                    <th class="col">
+                        Ticket Title
+                    </th>
+                    <th class="col">
+                        Quantity
+                    </th>
+                    <th class="col">
+                        Ticket Price
+                    </th>
+                    <th></th> @*Later we will implement a delete button*@
+                </tr>
+            </thead>
+            <tbody>
+                @{ 
+                    var i = 1;
+                    foreach (var item in Model.TicketsInShoppingCart)
+                    {
+                            <tr>
+                                @*One row for each item in the shopping cart*@
+                                <td>@(i++)</td>
+                                <td>@item.Ticket.Title</td>
+                                <td>@item.Quantity</td>
+                                <th>@item.Ticket.Price</th>
+                                <td><a class="btn btn-danger" href="/ShoppingCart/DeleteFromShoppingCart/@item.Ticket.Id">Delete</a></td> 
+                            </tr>
+                    }
+                }
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Total:</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th><b>@Model.TotalPrice</b></th>
+                </tr>
+            </tfoot>
+        </table>
+
+        <div class="row">
+            <a class="btn btn-warning" asp-action="OrderNow">Order Now</a>
+        </div>
+    }
+</div>

@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>_181010_IS_Homework1.Services</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="2.14.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\181010_IS_Homework1.Domain\181010_IS_Homework1.Domain.csproj" />
+    <ProjectReference Include="..\181010_IS_Homework1.Repository\181010_IS_Homework1.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
