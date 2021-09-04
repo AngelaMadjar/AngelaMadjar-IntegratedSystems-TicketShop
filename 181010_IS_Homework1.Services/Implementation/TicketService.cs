@@ -21,6 +21,8 @@ namespace _181010_IS_Homework1.Services.Implementation
             _userRepository = userRepository;
         }
 
+        public TicketService() { }
+
         public bool AddToShoppingCart(AddToShoppingCartDTO item, string userId)
         {
             var user = this._userRepository.Get(userId);

@@ -12,7 +12,7 @@ namespace _181010_IS_Homework1.Domain.DTO
         //Not saved in the database
 
         public Ticket SelectedTicket { get; set; }
-        public Guid TicketId { get; set; }
+        public Guid? TicketId { get; set; }
         public int Quantity { get; set; }
     }
 }
