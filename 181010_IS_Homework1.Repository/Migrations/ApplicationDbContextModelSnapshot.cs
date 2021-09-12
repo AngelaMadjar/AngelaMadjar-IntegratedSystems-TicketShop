@@ -154,29 +154,6 @@ namespace _181010_IS_Homework1.Repository.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
-            modelBuilder.Entity("_181010_IS_Homework1.Domain.DomainModels.EmailMessage", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("Content")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("MailTo")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("Status")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("Subject")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("EmailMessages");
-                });
-
             modelBuilder.Entity("_181010_IS_Homework1.Domain.DomainModels.Order", b =>
                 {
                     b.Property<Guid>("Id")

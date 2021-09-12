@@ -13,20 +13,17 @@ namespace _181010_IS_Homework1.Services.Implementation
     {
         private readonly IRepository<ShoppingCart> _shoppingCartRepository;
         private readonly IRepository<Order> _orderRepository;
-        private readonly IRepository<EmailMessage> _mailRepository; 
         private readonly IRepository<TicketInOrder> _ticketInOrderRepository;
         private readonly IUserRepository _userRepository;
 
         //Dependency injection
         public ShoppingCartService(IRepository<ShoppingCart> shoppingCartRepository,
                                    IRepository<Order> orderRepository,
-                                   IRepository<EmailMessage> mailRepository,
                                    IRepository<TicketInOrder> ticketInOrderRepository,
                                    IUserRepository userRepository)
         {
             _shoppingCartRepository = shoppingCartRepository;
             _orderRepository = orderRepository;
-            _mailRepository = mailRepository;
             _ticketInOrderRepository = ticketInOrderRepository;
             _userRepository = userRepository;
         }
@@ -102,10 +99,10 @@ namespace _181010_IS_Homework1.Services.Implementation
             var userShoppingCart = user.UserShoppingCart;
 
             //creating the email message
-            EmailMessage message = new EmailMessage();
-            message.MailTo = user.Email;
-            message.Subject = "Successfully created order";
-            message.Status = false;
+            //EmailMessage message = new EmailMessage();
+            //message.MailTo = user.Email;
+            //message.Subject = "Successfully created order";
+            //message.Status = false;
 
             //creating a new order for the user
             Order newOrder = new Order
@@ -142,7 +139,7 @@ namespace _181010_IS_Homework1.Services.Implementation
 
             sb.AppendLine("Total price: " + totalPrice.ToString());
 
-            message.Content = sb.ToString();
+            //message.Content = sb.ToString();
 
             foreach (var item in ticketInOrder)
             {
@@ -153,7 +150,7 @@ namespace _181010_IS_Homework1.Services.Implementation
             user.UserShoppingCart.TicketsInShoppingCart.Clear();
 
             //inserting the newly created message
-            this._mailRepository.Insert(message);
+            //this._mailRepository.Insert(message);
 
             _userRepository.Update(user);
         }

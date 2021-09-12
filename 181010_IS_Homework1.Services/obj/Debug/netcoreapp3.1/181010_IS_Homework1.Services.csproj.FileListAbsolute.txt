@@ -12,7 +12,12 @@ C:\Users\Angela Madjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS
 C:\Users\Angela Madjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Services\bin\Debug\netcoreapp3.1\181010_IS_Homework1.Repository.pdb
 C:\Users\Angela Madjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Services\obj\Debug\netcoreapp3.1\181010_IS_Homework1.Services.csproj.AssemblyReference.cache
 C:\Users\Angela Madjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Services\obj\Debug\netcoreapp3.1\181010_IS_Homework1.Services.csproj.CopyComplete
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Services\bin\Debug\netcoreapp3.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Services\bin\Debug\netcoreapp3.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Services\bin\Debug\netcoreapp3.1\xunit.runner.utility.netcoreapp10.dll
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Services\bin\Debug\netcoreapp3.1\181010_IS_Homework1.Services.deps.json
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Services\bin\Debug\netcoreapp3.1\181010_IS_Homework1.Services.runtimeconfig.json
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Services\bin\Debug\netcoreapp3.1\181010_IS_Homework1.Services.runtimeconfig.dev.json
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Services\bin\Debug\netcoreapp3.1\181010_IS_Homework1.Services.dll
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Services\bin\Debug\netcoreapp3.1\181010_IS_Homework1.Services.pdb
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Services\bin\Debug\netcoreapp3.1\181010_IS_Homework1.Domain.dll
@@ -20,16 +25,11 @@ C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Services\bin\Debug\netcoreapp3.1\181010_IS_Homework1.Domain.pdb
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Services\bin\Debug\netcoreapp3.1\181010_IS_Homework1.Repository.pdb
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Services\obj\Debug\netcoreapp3.1\181010_IS_Homework1.Services.csproj.AssemblyReference.cache
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Services\obj\Debug\netcoreapp3.1\181010_IS_Homework1.Services.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Services\obj\Debug\netcoreapp3.1\181010_IS_Homework1.Services.AssemblyInfoInputs.cache
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Services\obj\Debug\netcoreapp3.1\181010_IS_Homework1.Services.AssemblyInfo.cs
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Services\obj\Debug\netcoreapp3.1\181010_IS_Homework1.Services.csproj.CoreCompileInputs.cache
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Services\obj\Debug\netcoreapp3.1\181010_IS_Homework1.Services.csproj.CopyComplete
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Services\obj\Debug\netcoreapp3.1\181010_IS_Homework1.Services.dll
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Services\obj\Debug\netcoreapp3.1\181010_IS_Homework1.Services.pdb
-C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Services\bin\Debug\netcoreapp3.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
-C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Services\bin\Debug\netcoreapp3.1\xunit.runner.reporters.netcoreapp10.dll
-C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Services\bin\Debug\netcoreapp3.1\xunit.runner.utility.netcoreapp10.dll
-C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Services\bin\Debug\netcoreapp3.1\181010_IS_Homework1.Services.runtimeconfig.json
-C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Services\bin\Debug\netcoreapp3.1\181010_IS_Homework1.Services.runtimeconfig.dev.json
-C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Services\obj\Debug\netcoreapp3.1\181010_IS_Homework1.Services.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1.Services\obj\Debug\netcoreapp3.1\181010_IS_Homework1.Services.genruntimeconfig.cache

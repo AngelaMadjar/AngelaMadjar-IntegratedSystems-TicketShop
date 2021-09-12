@@ -364,6 +364,7 @@ C:\Users\Angela Madjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS
 C:\Users\Angela Madjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\Angela Madjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\obj\Debug\netcoreapp3.1\181010_IS_Homework1.csproj.AssemblyReference.cache
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\obj\Debug\netcoreapp3.1\181010_IS_Homework1.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\obj\Debug\netcoreapp3.1\181010_IS_Homework1.AssemblyInfoInputs.cache
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\obj\Debug\netcoreapp3.1\181010_IS_Homework1.AssemblyInfo.cs
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\obj\Debug\netcoreapp3.1\181010_IS_Homework1.csproj.CoreCompileInputs.cache
@@ -406,6 +407,9 @@ C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\181010_IS_Homework1.StaticWebAssets.xml
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\xunit.runner.utility.netcoreapp10.dll
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\181010_IS_Homework1.exe
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\181010_IS_Homework1.deps.json
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\181010_IS_Homework1.runtimeconfig.json
@@ -414,6 +418,7 @@ C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\181010_IS_Homework1.pdb
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\181010_IS_Homework1.Views.dll
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\181010_IS_Homework1.Views.pdb
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\Castle.Core.dll
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\MailKit.dll
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
@@ -469,6 +474,7 @@ C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\MimeKit.dll
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\Moq.dll
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\NLog.dll
@@ -487,6 +493,10 @@ C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\xunit.abstractions.dll
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\xunit.assert.dll
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\xunit.core.dll
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\xunit.execution.dotnet.dll
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
@@ -556,13 +566,3 @@ C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\obj\Debug\netcoreapp3.1\181010_IS_Homework1.Views.pdb
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\obj\Debug\netcoreapp3.1\181010_IS_Homework1.csproj.CopyComplete
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\obj\Debug\netcoreapp3.1\181010_IS_Homework1.genruntimeconfig.cache
-C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\obj\Debug\netcoreapp3.1\181010_IS_Homework1.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
-C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\xunit.runner.reporters.netcoreapp10.dll
-C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\xunit.runner.utility.netcoreapp10.dll
-C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\xunit.abstractions.dll
-C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\xunit.assert.dll
-C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\xunit.core.dll
-C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\xunit.execution.dotnet.dll
-C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\Castle.Core.dll
-C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\Moq.dll

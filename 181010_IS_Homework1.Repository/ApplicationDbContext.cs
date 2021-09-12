@@ -21,7 +21,6 @@ namespace _181010_IS_Homework1.Repository
         public virtual DbSet<ShopApplicationUser> ShopApplicationUsers { get; set; }
         public virtual DbSet<TicketInOrder> TicketsInOrder { get; set; }
         public virtual DbSet<Order> Orders { get; set; }
-        public virtual DbSet<EmailMessage> EmailMessages { get; set; }
 
         //Creating a composite key for the TicketInShoppingCart (many2many relationship)
         protected override void OnModelCreating(ModelBuilder builder)

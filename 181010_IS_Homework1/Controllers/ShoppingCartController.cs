@@ -40,8 +40,8 @@ namespace _181010_IS_Homework1.Controllers
             //I can add an if/else block to handle the case when the result is false
             return RedirectToAction(nameof(Index));
             
-
         }
+
 
         public IActionResult OrderNow()
         {

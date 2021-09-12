@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "181010_IS_Homework1.Reposit
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "181010_IS_Homework1.Services", "181010_IS_Homework1.Services\181010_IS_Homework1.Services.csproj", "{435198C3-4898-4C99-9B54-71FE587A0C5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.xUnit.Moq", "Services.xUnit.Moq\Services.xUnit.Moq.csproj", "{BBEEF5B6-460F-4262-B5DA-53A19D7D803F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services.xUnit.Moq", "Services.xUnit.Moq\Services.xUnit.Moq.csproj", "{BBEEF5B6-460F-4262-B5DA-53A19D7D803F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketShop.IntegrationTests", "TicketShop.IntegrationTests\TicketShop.IntegrationTests.csproj", "{EA137B0C-6665-45E4-B46C-089A45E70C02}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{BBEEF5B6-460F-4262-B5DA-53A19D7D803F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBEEF5B6-460F-4262-B5DA-53A19D7D803F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBEEF5B6-460F-4262-B5DA-53A19D7D803F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA137B0C-6665-45E4-B46C-089A45E70C02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA137B0C-6665-45E4-B46C-089A45E70C02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA137B0C-6665-45E4-B46C-089A45E70C02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA137B0C-6665-45E4-B46C-089A45E70C02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

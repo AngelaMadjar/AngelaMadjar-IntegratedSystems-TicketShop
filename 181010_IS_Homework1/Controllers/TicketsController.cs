@@ -29,7 +29,7 @@ namespace _181010_IS_Homework1.Controllers
         }
 
         // GET: Tickets
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
             _logger.LogInformation("Tickets page was opened");
             var allTickets = this._ticketService.GetAllTickets();

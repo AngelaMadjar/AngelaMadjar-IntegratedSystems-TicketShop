@@ -25,7 +25,6 @@ namespace Services.xUnitTests.Moq
         // Mocking 
         private readonly Mock<IRepository<ShoppingCart>> _shoppingCartRepoMock = new Mock<IRepository<ShoppingCart>>();
         private readonly Mock<IRepository<Order>> _orderRepoMock = new Mock<IRepository<Order>>();
-        private readonly Mock<IRepository<EmailMessage>> _emailMessageRepoMock = new Mock<IRepository<EmailMessage>>(); // shold be removed later
         private readonly Mock<IRepository<TicketInOrder>> _ticketInOrderRepoMock = new Mock<IRepository<TicketInOrder>>();
         private readonly Mock<IUserRepository> _userRepoMock = new Mock<IUserRepository>();
 
@@ -33,7 +32,7 @@ namespace Services.xUnitTests.Moq
         public ShoppingCartServiceTests()
         {
             _sut = new ShoppingCartService(_shoppingCartRepoMock.Object, _orderRepoMock.Object,
-                _emailMessageRepoMock.Object, _ticketInOrderRepoMock.Object, _userRepoMock.Object);
+                _ticketInOrderRepoMock.Object, _userRepoMock.Object);
         }
 
 
