@@ -21,18 +21,15 @@ namespace TicketShop.IntegrationTests
         {
         }
 
-      /*  public override void ConfigureDatabase(IServiceCollection services)
+        /*public override void ConfigureDatabase(IServiceCollection services)
         {
             // Replace default database connection with In-Memory database
-            services.AddDbContext<ApplicationDbContext>(options => 
+            services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseInMemoryDatabase("blogplayground_test_db"));
 
             // Register the database seeder
             services.AddTransient<DatabaseSeeder>();
 
-            //services
-            //.AddControllers()
-            //.AddApplicationPart(typeof(TicketsController).Assembly);
         }
 
         public async override void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -47,9 +44,6 @@ namespace TicketShop.IntegrationTests
                 var seeder = serviceScope.ServiceProvider.GetService<DatabaseSeeder>();
                 await seeder.Seed();
             }
-
-
-
         }*/
     }
 }

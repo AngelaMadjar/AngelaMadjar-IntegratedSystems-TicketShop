@@ -1,9 +1,6 @@
 ﻿using _181010_IS_Homework1.Domain.Identity;
 using _181010_IS_Homework1.Repository;
 using Microsoft.AspNetCore.Identity;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace TicketShop.IntegrationTests.Data

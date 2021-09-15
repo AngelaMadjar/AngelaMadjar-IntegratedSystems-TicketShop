@@ -1,4 +1,5 @@
 ﻿using _181010_IS_Homework1;
+using _181010_IS_Homework1.Domain.DomainModels;
 using _181010_IS_Homework1.Repository;
 using _181010_IS_Homework1.Services.Implementation;
 using _181010_IS_Homework1.Services.Interface;
@@ -14,6 +15,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Options;
 using Microsoft.Extensions.PlatformAbstractions;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -30,11 +32,10 @@ namespace TicketShop.IntegrationTests
     // NOTE: Working with PredefinedData
     public class TicketTest 
     {
-        /*private readonly TestServer _server;*
+        /*private readonly TestServer _server;
         private readonly HttpClient _client;
-        private readonly ApplicationDbContext _context;
 
-        public TicketTest(ApplicationDbContext context)
+        public TicketTest()
         {
             var integrationTestsPath = PlatformServices.Default.Application.ApplicationBasePath;
             var applicationPath = Path.GetFullPath(Path.Combine(integrationTestsPath, "../../../../181010_IS_Homework1"));
@@ -62,10 +63,7 @@ namespace TicketShop.IntegrationTests
             // Assert
             response.EnsureSuccessStatusCode();
             var responseString = await response.Content.ReadAsStringAsync();
-            foreach (var ticket in _context.Tickets)
-            { 
-                Assert.Contains($"< h3 > { @ticket.Title} </ h3 >", responseString);
-            }
+
         }*/
 
 
@@ -102,7 +100,7 @@ namespace TicketShop.IntegrationTests
             var client = factory.CreateClient();
 
             // Act
-            var response = await client.GetAsync("/Tickets/Details/40022a5e-1058-4f05-8fe3-0d8175388930");
+            var response = await client.GetAsync($"/Tickets/Details/{PredefinedData.Tickets[0].Id}");
 
             // Assert
             var responseString = await response.Content.ReadAsStringAsync();
@@ -151,6 +149,67 @@ namespace TicketShop.IntegrationTests
         }
 
 
+        //HTTP POST CREATE
+        [Fact]
+        public async Task Create_Post_CreatesNewTicket()
+        {
+            var factory = new WebApplicationFactory<Startup>();
+
+            //ova go pram za POST akciive da ne praet redirect so cel da ne se izgubet informacii vo headerot na response-ot
+
+            var clientOptions = new WebApplicationFactoryClientOptions();
+            clientOptions.AllowAutoRedirect = true;
+            clientOptions.BaseAddress = new Uri("http://localhost");
+            clientOptions.HandleCookies = true;
+            clientOptions.MaxAutomaticRedirections = 7;
+
+            var client = factory.CreateClient(clientOptions);
+
+            // await EnsureAuthenticationCookie();
+            var formData = new Dictionary<string, string>
+                   {
+                   { "Id", "40022a5e-1058-4f05-8fe3-0d8175388932" },
+                   { "Title", "nov" },
+                   { "Image", "nova" },
+                   {"Rating", "1" },
+                   {"Price", "200"},
+                   {"Seat", "4" },
+                   {"DateAndTime", DateTime.Now.ToString() },
+                   {"TicketsInShoppingCart", null }
+                   };
+
+            // Act
+            //var res = await client.GetAsync("/Tickets/Create");
+
+            /*
+                        var request = await client.PostAsync("/Tickets/Create", new StringContent(
+                           JsonConvert.SerializeObject(new Ticket()
+                           {
+                               Id = Guid.Parse("40022a5e-1058-4f05-8fe3-0d8175388929"),
+                               Title = "new",
+                               Rating = 5,
+                               Seat = 6,
+                               Image = "sfdfdfdfdsd",
+                               DateAndTime = DateTime.Now,
+                               TicketsInShoppingCart = null,
+                               Price = 300
+                           }),
+                       Encoding.UTF8,
+                       "application/json"));
+            */
+            var response = await client.PostAsync("/Tickets/Create", new FormUrlEncodedContent(formData));
+
+            var requestString = await response.Content.ReadAsStringAsync();
+
+            // Assert
+            //Assert.Equal(HttpStatusCode.Found, response.StatusCode);
+            Assert.Contains("nova", requestString);
+            //  Assert.Equal("/Tickets", request.Headers.Location.ToString());
+
+
+        }
+
+
 
         [Fact]
         public async Task Edit_Get_ReturnsCreateHtmlPage()
@@ -162,7 +221,7 @@ namespace TicketShop.IntegrationTests
             var client = factory.CreateClient();
 
             // Act
-            var response = await client.GetAsync("/Tickets/Edit/40022a5e-1058-4f05-8fe3-0d8175388930");
+            var response = await client.GetAsync($"/Tickets/Edit/{PredefinedData.Tickets[0].Id}");
 
             // Assert
             var responseString = await response.Content.ReadAsStringAsync();
@@ -202,18 +261,18 @@ namespace TicketShop.IntegrationTests
             var client = factory.CreateClient();
 
             // Act
-            var response = await client.GetAsync("/Tickets/AddToShoppingCart/40022a5e-1058-4f05-8fe3-0d8175388930");
+            var response = await client.GetAsync($"/Tickets/AddToShoppingCart/{PredefinedData.Tickets[0].Id}");
 
             // Assert
             var responseString = await response.Content.ReadAsStringAsync();
 
             Assert.Contains("Add Selected Ticket to Shopping Cart", responseString);
         }
-        
 
+       
 
         [Fact]
-        public async Task Delete_Get_ReturnsCreateHtmlPage()
+        public async Task Delete_Get_ReturnsDeleteHtmlPage()
         {
             // Arrange
             var factory = new WebApplicationFactory<Startup>();
@@ -222,7 +281,7 @@ namespace TicketShop.IntegrationTests
             var client = factory.CreateClient();
 
             // Act
-            var response = await client.GetAsync("/Tickets/Delete/ef583888-1dc1-4ea5-8510-c1412595a249");
+            var response = await client.GetAsync($"/Tickets/Delete/{PredefinedData.Tickets[0].Id}");
 
             // Assert
             var responseString = await response.Content.ReadAsStringAsync();
@@ -269,7 +328,6 @@ namespace TicketShop.IntegrationTests
 
             Assert.Contains("", responseString);
         }
-
 
     }
 }

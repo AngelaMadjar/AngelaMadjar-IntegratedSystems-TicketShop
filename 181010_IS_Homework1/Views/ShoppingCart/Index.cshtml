@@ -42,7 +42,7 @@
                                 <td>@item.Ticket.Title</td>
                                 <td>@item.Quantity</td>
                                 <th>@item.Ticket.Price</th>
-                                <td><a class="btn btn-danger" href="/ShoppingCart/DeleteFromShoppingCart/@item.Ticket.Id">Delete</a></td> 
+                                <td><a id="delete-from-shoppingcart" class="btn btn-danger" href="/ShoppingCart/DeleteFromShoppingCart/@item.Ticket.Id">Delete</a></td> 
                             </tr>
                     }
                 }
@@ -59,7 +59,7 @@
         </table>
 
         <div class="row">
-            <a class="btn btn-warning" asp-action="OrderNow">Order Now</a>
+            <a id="order-now" class="btn btn-warning" asp-action="OrderNow">Order Now</a>
         </div>
     }
 </div>

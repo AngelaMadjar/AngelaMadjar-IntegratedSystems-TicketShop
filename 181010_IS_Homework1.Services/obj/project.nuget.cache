@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "g9leXhTpCtAgsuxEPgXUj3BLuN1qm6LXarC8ITxo76UGz2T8fAFKlZOJg+7/2AhwoOQa39NKxGvNAKJnxLZsIw==",
+  "dgSpecHash": "jmkHV0IJ67Sqb0VZImAGU5gJbwnz0PpawnG3CWs9CNQqyLxjOwrXIEK8mbYoGIIvcizYFed9dfZw21SXmOc0+A==",
   "success": true,
   "projectFilePath": "C:\\Users\\angelamadjar\\source\\repos\\181010_IS_Homework1\\ECommerceStore\\181010_IS_Homework1.Services\\181010_IS_Homework1.Services.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,7 @@
     "C:\\Users\\angelamadjar\\.nuget\\packages\\microsoft.entityframeworkcore\\3.1.15\\microsoft.entityframeworkcore.3.1.15.nupkg.sha512",
     "C:\\Users\\angelamadjar\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\3.1.15\\microsoft.entityframeworkcore.abstractions.3.1.15.nupkg.sha512",
     "C:\\Users\\angelamadjar\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\3.1.15\\microsoft.entityframeworkcore.analyzers.3.1.15.nupkg.sha512",
+    "C:\\Users\\angelamadjar\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\3.1.0\\microsoft.entityframeworkcore.inmemory.3.1.0.nupkg.sha512",
     "C:\\Users\\angelamadjar\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.15\\microsoft.entityframeworkcore.relational.3.1.15.nupkg.sha512",
     "C:\\Users\\angelamadjar\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\3.1.15\\microsoft.entityframeworkcore.sqlserver.3.1.15.nupkg.sha512",
     "C:\\Users\\angelamadjar\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.15\\microsoft.extensions.caching.abstractions.3.1.15.nupkg.sha512",

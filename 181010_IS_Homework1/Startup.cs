@@ -1,27 +1,15 @@
-using _181010_IS_Homework1.Data;
-using _181010_IS_Homework1.Domain;
-using _181010_IS_Homework1.Domain.DomainModels;
 using _181010_IS_Homework1.Domain.Identity;
 using _181010_IS_Homework1.Repository;
 using _181010_IS_Homework1.Repository.Implementation;
 using _181010_IS_Homework1.Repository.Interface;
-using _181010_IS_Homework1.Services;
-using _181010_IS_Homework1.Services.Implementation;
 using _181010_IS_Homework1.Services.Interface;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.UI;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+
 
 namespace _181010_IS_Homework1
 {

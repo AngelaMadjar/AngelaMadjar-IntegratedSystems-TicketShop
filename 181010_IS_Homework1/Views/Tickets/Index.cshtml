@@ -7,7 +7,7 @@
 <h1>Tickets</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a id="create-new-ticket" asp-action="Create">Create New</a>
 </p>
 
 <div class="row">
@@ -23,10 +23,10 @@
                         Date: @item.DateAndTime <br />
                         Price: @item.Price <br />
                     </p>
-                    <a class="btn btn-secondary" asp-action="Edit" asp-route-id="@item.Id">
+                    <a id="edit-btn" class="btn btn-secondary" asp-action="Edit" asp-route-id="@item.Id">
                         Edit
                     </a>
-                    <a asp-controller="Tickets" asp-action="AddToShoppingCart" asp-route-id="@item.Id" class="btn btn-default">Add to Card</a>
+                    <a asp-controller="Tickets" asp-action="AddToShoppingCart" asp-route-id="@item.Id" class="btn btn-default" id="addtocart-btn">Add to Cart</a>
                     @*<a class="btn btn-default" href="Tickets/AddToShoppingCart?Id=@item.Id">
             Add to Cart
         </a>*@

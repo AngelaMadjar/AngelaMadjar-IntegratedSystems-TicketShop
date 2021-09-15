@@ -30,7 +30,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="Price" class="control-label"></label>
-                <input asp-for="Price" class="form-control" />
+                <input id="edit-price" asp-for="Price" class="form-control" />
                 <span asp-validation-for="Price" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -44,7 +44,7 @@
                 <span asp-validation-for="DateAndTime" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input id="edit-savebtn" type="submit" value="Save" class="btn btn-primary" />
             </div>
         </form>
     </div>

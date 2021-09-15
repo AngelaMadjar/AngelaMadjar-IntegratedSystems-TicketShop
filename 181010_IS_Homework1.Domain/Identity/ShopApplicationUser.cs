@@ -14,5 +14,6 @@ namespace _181010_IS_Homework1.Domain.Identity
         public string Address { get; set; }
         public string Password { get; set; }
         public virtual ShoppingCart UserShoppingCart { get; set; }
+
     }
 }

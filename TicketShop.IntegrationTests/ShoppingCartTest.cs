@@ -1,9 +1,14 @@
 ﻿using _181010_IS_Homework1;
+using _181010_IS_Homework1.Controllers;
+using _181010_IS_Homework1.Domain.Identity;
 using Microsoft.AspNetCore.Mvc.Testing;
+using Microsoft.Extensions.Logging.Abstractions;
 using System;
 using System.Collections.Generic;
+using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
+using TicketShop.IntegrationTests.Data;
 using Xunit;
 
 namespace TicketShop.IntegrationTests

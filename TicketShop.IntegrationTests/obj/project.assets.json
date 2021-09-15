@@ -3613,6 +3613,7 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.15",
           "Microsoft.AspNetCore.Identity.UI": "3.1.15",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "3.1.16",
+          "Microsoft.EntityFrameworkCore.InMemory": "3.1.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.15",
           "Microsoft.EntityFrameworkCore.Tools": "3.1.15",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.1.5",
@@ -3638,6 +3639,7 @@
         "dependencies": {
           "MailKit": "2.14.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.15",
+          "Microsoft.EntityFrameworkCore.InMemory": "3.1.0",
           "Moq": "4.16.1",
           "xunit": "2.4.1",
           "xunit.analyzers": "0.10.0"
@@ -3656,6 +3658,7 @@
           "181010_IS_Homework1.Domain": "1.0.0",
           "MailKit": "2.14.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.15",
+          "Microsoft.EntityFrameworkCore.InMemory": "3.1.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.15",
           "Moq": "4.16.1",
           "xunit": "2.4.1",
@@ -3675,6 +3678,7 @@
           "181010_IS_Homework1.Domain": "1.0.0",
           "181010_IS_Homework1.Repository": "1.0.0",
           "MailKit": "2.14.0",
+          "Microsoft.EntityFrameworkCore.InMemory": "3.1.0",
           "Microsoft.Extensions.Hosting.Abstractions": "5.0.0",
           "Moq": "4.16.1",
           "xunit": "2.4.1",

@@ -1,14 +1,8 @@
-﻿using _181010_IS_Homework1.Data;
-using _181010_IS_Homework1.Domain.DomainModels;
-using _181010_IS_Homework1.Domain.DTO;
-using _181010_IS_Homework1.Services.Interface;
+﻿using _181010_IS_Homework1.Services.Interface;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Security.Claims;
-using System.Threading.Tasks;
+
 
 namespace _181010_IS_Homework1.Controllers
 {

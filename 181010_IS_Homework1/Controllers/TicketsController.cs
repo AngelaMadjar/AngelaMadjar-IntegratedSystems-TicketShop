@@ -63,7 +63,7 @@ namespace _181010_IS_Homework1.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
+        //[ValidateAntiForgeryToken]
         public IActionResult Create([Bind("TicketId,Title,Image,Rating,Price,Seat,DateAndTime")] Ticket ticket)
         {
             if (ModelState.IsValid)
@@ -95,7 +95,7 @@ namespace _181010_IS_Homework1.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
+        //[ValidateAntiForgeryToken]
         public IActionResult Edit(Guid id, [Bind("Id,Title,Image,Rating,Price,Seat,DateAndTime")] Ticket ticket)
         {
             if (id != ticket.Id)
@@ -170,7 +170,7 @@ namespace _181010_IS_Homework1.Controllers
 
         // POST: Tickets/Delete/5
         [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
+        //[ValidateAntiForgeryToken]
         public IActionResult DeleteConfirmed(Guid id)
         {
             this._ticketService.DeleteTicket(id);

@@ -1,4 +1,9 @@
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\Services.xUnit.Moq\bin\Debug\netcoreapp3.1\CoverletSourceRootsMapping
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\Services.xUnit.Moq\obj\Debug\netcoreapp3.1\Services.xUnit.Moq.csproj.AssemblyReference.cache
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\Services.xUnit.Moq\obj\Debug\netcoreapp3.1\Services.xUnit.Moq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\Services.xUnit.Moq\obj\Debug\netcoreapp3.1\Services.xUnit.Moq.AssemblyInfoInputs.cache
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\Services.xUnit.Moq\obj\Debug\netcoreapp3.1\Services.xUnit.Moq.AssemblyInfo.cs
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\Services.xUnit.Moq\obj\Debug\netcoreapp3.1\Services.xUnit.Moq.csproj.CoreCompileInputs.cache
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\Services.xUnit.Moq\bin\Debug\netcoreapp3.1\testhost.dll
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\Services.xUnit.Moq\bin\Debug\netcoreapp3.1\181010_IS_Homework1.Views.dll
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\Services.xUnit.Moq\bin\Debug\netcoreapp3.1\181010_IS_Homework1.Views.pdb
@@ -8,6 +13,10 @@ C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\Services.x
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\Services.xUnit.Moq\bin\Debug\netcoreapp3.1\nlog.config
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\Services.xUnit.Moq\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\Services.xUnit.Moq\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\Services.xUnit.Moq\bin\Debug\netcoreapp3.1\cypress.json
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\Services.xUnit.Moq\bin\Debug\netcoreapp3.1\package-lock.json
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\Services.xUnit.Moq\bin\Debug\netcoreapp3.1\package.json
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\Services.xUnit.Moq\bin\Debug\netcoreapp3.1\181010_IS_Homework1.StaticWebAssets.xml
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\Services.xUnit.Moq\bin\Debug\netcoreapp3.1\181010_IS_Homework1.exe
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\Services.xUnit.Moq\bin\Debug\netcoreapp3.1\testhost.exe
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\Services.xUnit.Moq\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
@@ -43,6 +52,7 @@ C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\Services.x
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\Services.xUnit.Moq\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\Services.xUnit.Moq\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\Services.xUnit.Moq\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\Services.xUnit.Moq\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\Services.xUnit.Moq\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\Services.xUnit.Moq\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\Services.xUnit.Moq\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
@@ -238,11 +248,6 @@ C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\Services.x
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\Services.xUnit.Moq\bin\Debug\netcoreapp3.1\181010_IS_Homework1.Repository.pdb
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\Services.xUnit.Moq\bin\Debug\netcoreapp3.1\181010_IS_Homework1.Services.pdb
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\Services.xUnit.Moq\bin\Debug\netcoreapp3.1\181010_IS_Homework1.pdb
-C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\Services.xUnit.Moq\obj\Debug\netcoreapp3.1\Services.xUnit.Moq.csproj.AssemblyReference.cache
-C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\Services.xUnit.Moq\obj\Debug\netcoreapp3.1\Services.xUnit.Moq.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\Services.xUnit.Moq\obj\Debug\netcoreapp3.1\Services.xUnit.Moq.AssemblyInfoInputs.cache
-C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\Services.xUnit.Moq\obj\Debug\netcoreapp3.1\Services.xUnit.Moq.AssemblyInfo.cs
-C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\Services.xUnit.Moq\obj\Debug\netcoreapp3.1\Services.xUnit.Moq.csproj.CoreCompileInputs.cache
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\Services.xUnit.Moq\obj\Debug\netcoreapp3.1\Services.xUnit.Moq.csproj.CopyComplete
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\Services.xUnit.Moq\obj\Debug\netcoreapp3.1\Services.xUnit.Moq.dll
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\Services.xUnit.Moq\obj\Debug\netcoreapp3.1\Services.xUnit.Moq.pdb

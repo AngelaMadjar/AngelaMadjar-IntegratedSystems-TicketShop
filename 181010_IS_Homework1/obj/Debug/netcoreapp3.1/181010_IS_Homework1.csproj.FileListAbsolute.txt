@@ -406,6 +406,9 @@ C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\nlog.config
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\cypress.json
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\package-lock.json
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\package.json
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\181010_IS_Homework1.StaticWebAssets.xml
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\xunit.runner.reporters.netcoreapp10.dll
@@ -441,6 +444,7 @@ C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\angelamadjar\source\repos\181010_IS_Homework1\ECommerceStore\181010_IS_Homework1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
