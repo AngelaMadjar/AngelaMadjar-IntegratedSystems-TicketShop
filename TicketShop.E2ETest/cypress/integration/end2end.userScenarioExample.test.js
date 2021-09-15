@@ -1,6 +1,6 @@
-﻿/// <reference types="cypress" />
+﻿//<reference types="cypress" />
 
-const { data } = require("cypress/types/jquery")
+//const { data } = require("cypress/types/jquery")
 
 
 describe('example scenario', () => {

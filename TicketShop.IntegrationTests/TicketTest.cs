@@ -83,10 +83,9 @@ namespace TicketShop.IntegrationTests
 
             // Assert
             var responseString = await response.Content.ReadAsStringAsync();
-            foreach (var ticket in PredefinedData.Tickets)
-            {
-                Assert.Contains($"<h3>{@ticket.Title}</h3>", responseString);
-            }
+
+            Assert.Contains("Silk Road", responseString);
+
         }
 
 
