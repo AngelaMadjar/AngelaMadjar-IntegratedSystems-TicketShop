@@ -20,6 +20,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
@@ -149,65 +150,7 @@ namespace TicketShop.IntegrationTests
         }
 
 
-        //HTTP POST CREATE
-        [Fact]
-        public async Task Create_Post_CreatesNewTicket()
-        {
-            var factory = new WebApplicationFactory<Startup>();
-
-            //ova go pram za POST akciive da ne praet redirect so cel da ne se izgubet informacii vo headerot na response-ot
-
-            var clientOptions = new WebApplicationFactoryClientOptions();
-            clientOptions.AllowAutoRedirect = true;
-            clientOptions.BaseAddress = new Uri("http://localhost");
-            clientOptions.HandleCookies = true;
-            clientOptions.MaxAutomaticRedirections = 7;
-
-            var client = factory.CreateClient(clientOptions);
-
-            // await EnsureAuthenticationCookie();
-            var formData = new Dictionary<string, string>
-                   {
-                   { "Id", "40022a5e-1058-4f05-8fe3-0d8175388932" },
-                   { "Title", "nov" },
-                   { "Image", "nova" },
-                   {"Rating", "1" },
-                   {"Price", "200"},
-                   {"Seat", "4" },
-                   {"DateAndTime", DateTime.Now.ToString() },
-                   {"TicketsInShoppingCart", null }
-                   };
-
-            // Act
-            //var res = await client.GetAsync("/Tickets/Create");
-
-            /*
-                        var request = await client.PostAsync("/Tickets/Create", new StringContent(
-                           JsonConvert.SerializeObject(new Ticket()
-                           {
-                               Id = Guid.Parse("40022a5e-1058-4f05-8fe3-0d8175388929"),
-                               Title = "new",
-                               Rating = 5,
-                               Seat = 6,
-                               Image = "sfdfdfdfdsd",
-                               DateAndTime = DateTime.Now,
-                               TicketsInShoppingCart = null,
-                               Price = 300
-                           }),
-                       Encoding.UTF8,
-                       "application/json"));
-            */
-            var response = await client.PostAsync("/Tickets/Create", new FormUrlEncodedContent(formData));
-
-            var requestString = await response.Content.ReadAsStringAsync();
-
-            // Assert
-            //Assert.Equal(HttpStatusCode.Found, response.StatusCode);
-            Assert.Contains("nova", requestString);
-            //  Assert.Equal("/Tickets", request.Headers.Location.ToString());
-
-
-        }
+       
 
 
 
@@ -327,6 +270,124 @@ namespace TicketShop.IntegrationTests
             var responseString = await response.Content.ReadAsStringAsync();
 
             Assert.Contains("", responseString);
+        }
+
+        //EDIT POST
+
+        [Fact]
+        public async Task Edit_Post_EditTicket()
+        {
+            // Arrange
+            var factory = new WebApplicationFactory<Startup>();
+
+            // Create an HttpClient which is setup for the test host
+            var client = factory.CreateClient();
+
+            // Act
+            var response = await client.GetAsync("/Tickets/Edit/1f85a895-65c6-488a-ba75-f2bec8706809");
+
+
+            var formData = new Dictionary<string, string>
+                   {
+                   { "Id", "1f85a895-65c6-488a-ba75-f2bec8706809" },
+                   { "Title", "/" },
+                   { "Image", "/" },
+                   {"Rating", "0" },
+                   {"Price", "0"},
+                   {"Seat", "0" },
+                   {"DateAndTime", "DateTime.Now" },
+                   {"TicketsInShoppingCart","null" }
+                   };
+
+            var response1 = await client.PostAsync("/Tickets/Edit/1f85a895-65c6-488a-ba75-f2bec8706809", new FormUrlEncodedContent(formData));
+
+
+            // Assert
+            var responseString = await response1.Content.ReadAsStringAsync();
+            Assert.Equal(response1.StatusCode, HttpStatusCode.OK);
+            Assert.Contains("DateTime.Now", responseString);
+        }
+
+
+
+
+
+
+
+
+        //delete
+
+        //HTTP POST DELETE
+        [Fact]
+        public async Task Delete_Post_DeletesTicket()
+        {
+            // Arrange
+            var factory = new WebApplicationFactory<Startup>();
+
+            // Create an HttpClient which is setup for the test host
+            var client = factory.CreateClient();
+            // Arrange
+
+
+            //fcee05a4-145f-41de-956b-f1e9f6cd25bb od databaza newdatabase -> dbo.Tickets
+            var formData = PredefinedData.Tickets[1].Id.ToString();
+
+            var gett = await client.GetAsync("Tickets/Delete/1f85a895-65c6-488a-ba75-f2bec8706809");
+
+            // Act
+            var response = await client.PostAsync("/Tickets/Delete/1f85a895-65c6-488a-ba75-f2bec8706809", new StringContent(formData));
+
+            var responseString = await response.Content.ReadAsStringAsync();
+
+            var responseAfterDeletion = await client.GetAsync("Tickets/Delete/1f85a895-65c6-488a-ba75-f2bec8706809");
+
+            // Assert
+            Assert.Equal(HttpStatusCode.NotFound, responseAfterDeletion.StatusCode);
+
+        }
+
+
+
+        
+
+        //HTTP POST CREATE
+        [Fact]
+        public async Task Create_Post_CreatesNewTicket()
+        {
+            var factory = new WebApplicationFactory<Startup>();
+
+            var clientOptions = new WebApplicationFactoryClientOptions();
+            clientOptions.AllowAutoRedirect = true;
+            clientOptions.BaseAddress = new Uri("http://localhost");
+            clientOptions.HandleCookies = true;
+            clientOptions.MaxAutomaticRedirections = 7;
+
+            var client = factory.CreateClient(clientOptions);
+
+            // await EnsureAuthenticationCookie();
+            var formData = new Dictionary<string, string>
+                   {
+                   { "Id", "40022a5e-1058-4f05-8fe3-0d8175388932" },
+                   { "Title", "nov" },
+                   { "Image", "nova" },
+                   {"Rating", "1" },
+                   {"Price", "200"},
+                   {"Seat", "4" },
+                   {"DateAndTime", "DateTime.Now" },
+                   {"TicketsInShoppingCart","null" }
+                   };
+
+            // Act
+            var res = await client.GetAsync("/Tickets/Create");
+
+            var response = await client.PostAsync("/Tickets/Create", new FormUrlEncodedContent(formData));
+
+            var requestString = await response.Content.ReadAsStringAsync();
+
+            // Assert
+            Assert.Contains("nov", requestString);
+
+
         }
 
     }

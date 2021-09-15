@@ -13573,19 +13573,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\angelamadjar\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\angelamadjar\\source\\repos\\181010_IS_Homework1\\ECommerceStore\\TicketShop.E2ETest\\TicketShop.E2ETest.csproj",
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\nov_skit\\AngelaMadjar-IntegratedSystems-TicketShop\\TicketShop.E2ETest\\TicketShop.E2ETest.csproj",
       "projectName": "TicketShop.E2ETest",
-      "projectPath": "C:\\Users\\angelamadjar\\source\\repos\\181010_IS_Homework1\\ECommerceStore\\TicketShop.E2ETest\\TicketShop.E2ETest.csproj",
-      "packagesPath": "C:\\Users\\angelamadjar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\angelamadjar\\source\\repos\\181010_IS_Homework1\\ECommerceStore\\TicketShop.E2ETest\\obj\\",
+      "projectPath": "C:\\Users\\User\\source\\repos\\nov_skit\\AngelaMadjar-IntegratedSystems-TicketShop\\TicketShop.E2ETest\\TicketShop.E2ETest.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\source\\repos\\nov_skit\\AngelaMadjar-IntegratedSystems-TicketShop\\TicketShop.E2ETest\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\angelamadjar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -13599,8 +13604,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\angelamadjar\\source\\repos\\181010_IS_Homework1\\ECommerceStore\\181010_IS_Homework1\\181010_IS_Homework1.csproj": {
-              "projectPath": "C:\\Users\\angelamadjar\\source\\repos\\181010_IS_Homework1\\ECommerceStore\\181010_IS_Homework1\\181010_IS_Homework1.csproj"
+            "C:\\Users\\User\\source\\repos\\nov_skit\\AngelaMadjar-IntegratedSystems-TicketShop\\181010_IS_Homework1\\181010_IS_Homework1.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\nov_skit\\AngelaMadjar-IntegratedSystems-TicketShop\\181010_IS_Homework1\\181010_IS_Homework1.csproj"
             }
           }
         }
@@ -13655,7 +13660,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
